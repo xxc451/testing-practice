@@ -1,3 +1,5 @@
+import { calculator } from "./calculator.js";
+
 test("Adds two numbers", () => {
   expect(calculator.add(1, 2)).toBeCloseTo(3);
 });

@@ -1,3 +1,5 @@
+import { capitalize } from "./capitalize.js";
+
 test("Normal case", () => {
   expect(capitalize("hello")).toBe("Hello");
 });

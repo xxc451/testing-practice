@@ -1,3 +1,5 @@
+import { ceasarCipher } from "./caesarCipher.js";
+
 test("Shifts letters by given factor", () => {
   expect(ceasarCipher("abc", 3)).toBe("def");
 });
